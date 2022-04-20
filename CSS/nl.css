@@ -1,0 +1,15 @@
+.nl{
+    position: absolute;
+    top :50%;
+    left: 50%;
+    width: 300px;
+    transform: translate(-50%,-25%);
+    height: 400px;
+    width: 800px;
+    font-size: 25px;
+}
+.s_nl{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}

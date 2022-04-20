@@ -1,0 +1,64 @@
+body{
+    background-color: #e8f0fe;
+}
+.A{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    background:url(./anh/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.B:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    background:url(./anh/123456.png) no-repeat;
+}
+.B:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: minmax(100px,auto);
+    background-color: #e8f0fe;
+    height: 600px;
+}
+.C:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 100%;
+}
+.C:nth-child(2){
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 50px;
+    width: 78%;
+    height: 100%;
+    color:white;
+}
+.fom{
+    margin: 20px;
+    border: 1px solid #80808000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    transform: translate(100%,-50%);
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #9acbe8;
+}
+table{
+    text-align: center;
+}
+.aa{
+    background: #3ba1fc;
+    color: white;
+}
